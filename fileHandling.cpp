@@ -10,10 +10,8 @@ int main()
     string line;
 
     fout.open("test.txt");
-
-    string opening = "Skriv noget tekst her. 'exit' stopper programmet.\n";
     
-    cout << opening;
+    cout << "Skriv noget tekst her. 'exit' stopper programmet.\n";
 
     while (fout)
     {
